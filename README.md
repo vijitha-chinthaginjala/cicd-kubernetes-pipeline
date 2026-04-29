@@ -34,6 +34,8 @@ GitHub Push → GitHub Actions → Docker Build → Push to Registry → Deploy 
 4. Monitor deployments via the Grafana dashboard
 
 ## Project Structure
+
+```
 cicd-kubernetes-pipeline/
 ├── .github/
 │   └── workflows/
@@ -44,5 +46,8 @@ cicd-kubernetes-pipeline/
 ├── k8s/
 │   ├── deployment.yml
 │   └── service.yml
+├── monitoring/
+│   └── prometheus.yml
 ├── Dockerfile
 └── README.md
+```
